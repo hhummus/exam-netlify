@@ -33,6 +33,8 @@ function UpdateBanner() {
                     
                         if(response.ok) {
                             console.log(data)
+                             alert("Banner is changed!");
+                             window.location.reload();
                         } 
                     } catch (err) {
                       console.log('error', err);
