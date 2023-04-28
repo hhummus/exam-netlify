@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/feed"
+  to = "project-exam-2-hhummus.netlify.app/feed"
+  status = 200
+  force = false
+  
+  
