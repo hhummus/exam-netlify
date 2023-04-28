@@ -66,7 +66,7 @@ const RegisterForm = () => {
 
     return (
       <>
-      <small id="tryAgain">Something went wrong. Please check that all values are correct.</small>
+      <small id="tryAgain">It seems this email is already used for another account. Please try again with a new email.</small>
         <form onSubmit={formik.handleSubmit}>
           <label htmlFor="email" className="labelLogin">Email</label>
           <input pattern="^[\w\-.]+@(stud\.)?noroff\.no$" title="Only Noroff emails can register"
