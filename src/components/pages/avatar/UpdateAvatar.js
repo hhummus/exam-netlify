@@ -32,7 +32,9 @@ function UpdateAvatar() {
                       const data = await response.json();
                     
                         if(response.ok) {
-                            console.log(data)
+                             console.log(data);
+                             alert("Avatar is changed!");
+                             window.location.reload();
                         } 
                     } catch (err) {
                       console.log('error', err);
@@ -96,4 +98,4 @@ function UpdateAvatar() {
     </div>
       )
     }
-export default UpdateAvatar
+export default UpdateAvatar;
